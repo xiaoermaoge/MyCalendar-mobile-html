@@ -1,0 +1,86 @@
+.Rcontainer{
+    padding: 10px;
+    .content{
+        .list{
+            display: flex;
+
+            justify-content: space-around;
+            margin-top: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            align-items: center;
+            .time{
+                padding: 5px;
+                border-radius: 3px;
+                background: #ddd;
+            }
+        }
+    }
+    .reserveM{
+        .close{
+            color:#fff;
+            text-align:center;
+            position: relative;
+            .icon{
+                position: absolute;
+                right: 15px;
+            }
+        }
+        .moreTime{
+            color: #fff;
+            text-align: center;
+            height: 250px;
+            overflow: scroll;
+            margin-top: 10px;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            .timeList{
+                width: 150px;
+                margin: 0px auto;
+                padding: 10px 0;
+                border-top: 1px solid #ddd;
+                //border-bottom: 1px solid #ddd;
+            }
+
+        //    样式切换
+             .ui-selecting {
+                background: #e0cb2a;
+            }
+
+             .ui-selected {
+                background: #a9d563;
+                color: white;
+            }
+
+             .unselectable {
+                background: #e6e6df;
+                color: #000000;
+            }
+
+             .ui-ordered {
+                background: #159215;
+                color: white;
+            }
+        }
+    }
+}
+
+.dialog-demo {
+    .weui-dialog{
+        border-radius: 8px;
+        padding-bottom: 8px;
+    }
+    .dialog-title {
+        line-height: 30px;
+        color: #666;
+    }
+    .img-box {
+        height: 350px;
+        overflow: hidden;
+    }
+    .vux-close {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}

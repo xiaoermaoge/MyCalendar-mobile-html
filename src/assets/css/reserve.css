@@ -1,0 +1,60 @@
+.Rcontainer {
+  padding: 10px; }
+  .Rcontainer .content .list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    align-items: center; }
+    .Rcontainer .content .list .time {
+      padding: 5px;
+      border-radius: 3px;
+      background: #ddd; }
+  .Rcontainer .reserveM .close {
+    color: #fff;
+    text-align: center;
+    position: relative; }
+    .Rcontainer .reserveM .close .icon {
+      position: absolute;
+      right: 15px; }
+  .Rcontainer .reserveM .moreTime {
+    color: #fff;
+    text-align: center;
+    height: 250px;
+    overflow: scroll;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+    .Rcontainer .reserveM .moreTime .timeList {
+      width: 150px;
+      margin: 0px auto;
+      padding: 10px 0;
+      border-top: 1px solid #ddd; }
+    .Rcontainer .reserveM .moreTime .ui-selecting {
+      background: #e0cb2a; }
+    .Rcontainer .reserveM .moreTime .ui-selected {
+      background: #a9d563;
+      color: white; }
+    .Rcontainer .reserveM .moreTime .unselectable {
+      background: #e6e6df;
+      color: #000000; }
+    .Rcontainer .reserveM .moreTime .ui-ordered {
+      background: #159215;
+      color: white; }
+
+.dialog-demo .weui-dialog {
+  border-radius: 8px;
+  padding-bottom: 8px; }
+.dialog-demo .dialog-title {
+  line-height: 30px;
+  color: #666; }
+.dialog-demo .img-box {
+  height: 350px;
+  overflow: hidden; }
+.dialog-demo .vux-close {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+
+/*# sourceMappingURL=reserve.css.map */
